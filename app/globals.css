@@ -2,11 +2,12 @@
   --font-heading: Montserrat;
   --font-body: Hind Vadodara;
 
-  --font-xs: 8rem;
-  --font-sm: 16rem;
-  --font-md: 24rem;
-  --font-lg: 32rem;
-  --font-xl: 56rem;
+  --font-xs: 0.8rem;
+  --font-sm: 1.6rem;
+  --font-reg: 2rem
+  --font-md: 2.4rem;
+  --font-lg: 3.2rem;
+  --font-xl: 5.6rem;
 
   --font-weight-reg: 400;
   --font-weight-semi-bold: 500;
@@ -22,13 +23,17 @@
   --error: rgb(158, 25, 70);
   --light: rgb(255, 255, 255);
 
-  --spacing-2xs: 8rem;
-  --spacing-xs: 16rem;
-  --spacing-sm: 24rem;
-  --spacing-md: 48rem;
-  --spacing-lg: 56rem;
-  --spacing-xl: 96rem;
-  --spacing-2xl: 128rem;
+  --spacing-2xs: 0.8rem;
+  --spacing-xs: 1.6rem;
+  --spacing-sm: 2.4rem;
+  --spacing-md: 4.8rem;
+  --spacing-lg: 5.6rem;
+  --spacing-xl: 9.6rem;
+  --spacing-2xl: 12.8rem;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 html,
@@ -41,6 +46,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--dark);
 }
 
 * {
