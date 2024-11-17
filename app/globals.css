@@ -1,6 +1,34 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-heading: Montserrat;
+  --font-body: Hind Vadodara;
+
+  --font-xs: 8rem;
+  --font-sm: 16rem;
+  --font-md: 24rem;
+  --font-lg: 32rem;
+  --font-xl: 56rem;
+
+  --font-weight-reg: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 700;
+
+  --dark: rgb(30, 30, 30);
+  --dark-75: rgb(30, 30, 30, 0.75);
+  --primary: rgb(35, 64, 67);
+  --primary-75: rgb(35, 64, 67, 0.75);
+  --primary-50: rgb(35, 64, 67, 0.5);
+  --primary-25: rgb(35, 64, 67, 0.25);
+  --secondary: rgb(197, 166, 109);
+  --error: rgb(158, 25, 70);
+  --light: rgb(255, 255, 255);
+
+  --spacing-2xs: 8rem;
+  --spacing-xs: 16rem;
+  --spacing-sm: 24rem;
+  --spacing-md: 48rem;
+  --spacing-lg: 56rem;
+  --spacing-xl: 96rem;
+  --spacing-2xl: 128rem;
 }
 
 html,
