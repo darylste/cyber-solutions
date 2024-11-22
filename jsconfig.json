@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "app/",
+    "baseUrl": "./app",
     "paths": {
       "@/*": ["./*"],
-      "@/atomic/*": ["atomic/*"]
+      "@atomic": ["atomic/index"],
+      "@/assets/*": ["../public/"]
     }
   }
 }
