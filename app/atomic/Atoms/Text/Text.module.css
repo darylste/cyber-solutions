@@ -43,23 +43,3 @@
 .semi-bold {
   font-weight: var(--font-weight-semi-bold) !important;
 }
-
-.dark {
-  color: var(--dark);
-}
-
-.light {
-  color: var(--light);
-}
-
-.primary {
-  color: var(--primary);
-}
-
-.secondary {
-  color: var(--secondary);
-}
-
-.error {
-  color: var(--error);
-}

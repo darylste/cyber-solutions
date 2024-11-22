@@ -3,13 +3,8 @@ import styles from './Text.module.css';
 
 const cn = require('classnames');
 
-const Text = ({
-  varient = 'body',
-  color = 'black',
-  weight = 'normal',
-  children,
-}) => {
-  const classname = cn(styles[varient], styles[color], styles[weight]);
+const Text = ({ varient = 'body-rg', weight = 'normal', children }) => {
+  const classname = cn(styles[varient], styles[weight]);
 
   switch (varient) {
     case 'h1':

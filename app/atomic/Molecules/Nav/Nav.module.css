@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  width: fit-content;
+}
+
+.nav > * {
+  color: var(--light);
+}
+
+.nav > *:hover {
+  color: var(--secondary);
+  transform: translateY(-0.2rem);
+}
+
+.nav > *:active {
+  transform: translateY(0rem);
+}
+
+.nav > *:not(:first-child) {
+  padding-left: 4rem;
+}
