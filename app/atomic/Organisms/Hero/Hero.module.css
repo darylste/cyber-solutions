@@ -1,5 +1,10 @@
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary-75);
   min-height: 50dvh;
+  padding: 0 15.6rem;
 }

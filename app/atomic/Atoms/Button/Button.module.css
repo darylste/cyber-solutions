@@ -1,0 +1,10 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6.4rem;
+  border-radius: 1.6rem;
+  background-color: var(--secondary);
+  border: 2px solid var(--dark);
+  cursor: pointer;
+}
