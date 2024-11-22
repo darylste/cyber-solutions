@@ -1,0 +1,5 @@
+.hero {
+  position: relative;
+  background-color: var(--primary-75);
+  min-height: 50dvh;
+}
