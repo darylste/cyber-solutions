@@ -23,7 +23,7 @@ const Searchbar = () => {
           name='area'
           placeholder='Town, City, Postcode'
         />
-        <Button>Click</Button>
+        <Button>Search</Button>
       </form>
     </div>
   );

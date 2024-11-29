@@ -5,6 +5,7 @@
   padding: 0 6.4rem;
   border-radius: 1.6rem;
   background-color: var(--secondary);
+  color: var(--light);
   border: 2px solid var(--dark);
   cursor: pointer;
 }
